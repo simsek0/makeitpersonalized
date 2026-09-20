@@ -21,3 +21,6 @@ Business services, contact details and background were derived from makeitperson
 
 ## Validation
 Use TypeScript, build, and focused non-browser integration tests for validation, durable submissions, upload access controls and inbox isolation. WebMCP exposes draft staging and readback only; no submission is hidden in draft tools.
+
+## Futuristic visual direction
+The storefront and working surfaces use midnight navy, cyan/violet light, Space Grotesk display typography and mono labels. Original dark product-concept imagery replaces the bright hero. Entrance motion ends after one short pass; reduced-motion preferences disable it. Product forms, inbox controls, upload states and privacy content share the same accessible dark palette.

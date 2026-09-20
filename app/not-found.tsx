@@ -1,0 +1,1 @@
+export default function NotFound(){return <main className="wrap success-panel"><p className="eyebrow">A LITTLE OFF THE BEATEN PATH</p><h1>That page isn’t here.</h1><p>Your next great idea still is.</p><a href="/" className="button">Back to the studio</a></main>}

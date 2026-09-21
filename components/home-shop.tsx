@@ -1,0 +1,19 @@
+'use client';
+import {useState} from 'react';
+import {ArrowRight,Check,ChevronDown} from 'lucide-react';
+import {Tabs,TabsList,TabsTrigger,TabsContent} from '@/components/ui/tabs';
+import {shopCategories,shopProducts,priceLabel,productUrl} from '@/lib/shop';
+const collections=shopCategories.filter(c=>!c.parent);
+export default function HomeShop(){
+ const[category,setCategory]=useState(collections[0].slug);
+ const[expanded,setExpanded]=useState(false);
+ return <section className="front-shop wrap" id="shop" aria-labelledby="home-shop-title">
+  <div className="front-shop-intro"><div><p className="eyebrow">Custom made in Happy Valley, Oregon</p><h1 id="home-shop-title">What would you like<br className="shop-title-break"/> to personalize?</h1><p>Pick something you love. Add your idea. We’ll take it from there.</p></div><div className="front-shop-help"><a className="text-link" href="/customize">Already have an idea? Start here <ArrowRight size={17}/></a><span><Check size={14}/> One item or a whole team. No payment today.</span></div></div>
+  <Tabs value={category} onValueChange={value=>{setCategory(String(value));setExpanded(false)}} className="front-shop-tabs">
+   <TabsList aria-label="Choose a product category" className="front-collections">{collections.map((c,index)=><TabsTrigger value={c.slug} key={c.slug} className="front-collection"><span className="front-collection-image">{c.image&&<img src={c.image} width="170" height="130" alt="" loading={index<4?'eager':'lazy'} decoding="async"/>}<span className="selected-collection-mark" aria-hidden="true"><Check size={13}/></span></span><span>{c.name}</span></TabsTrigger>)}</TabsList>
+   <p className="category-scroll-hint">Swipe to explore all collections</p>
+   {collections.map(c=>{const products=shopProducts.filter(p=>p.collections.includes(c.slug));const visible=expanded?products:products.slice(0,4);return <TabsContent key={c.slug} value={c.slug} className="front-products-panel"><div className="front-products-heading"><div><h2>{c.name}</h2><p aria-live="polite">{products.length} items · Select one to start your request.</p></div><a className="text-link" href={'/shop/'+c.slug}>View collection <ArrowRight size={16}/></a></div><div className="front-products-grid">{visible.map((p,index)=><article className="front-product" key={p.id}><a href={productUrl(p)} className="front-product-image" aria-label={'View '+p.name+' details'}><img src={p.image} alt={p.name} width="360" height="360" loading={c.slug===collections[0].slug&&index<4?'eager':'lazy'} decoding="async"/></a><div className="front-product-copy"><h3><a href={productUrl(p)}>{p.name}</a></h3><div className="front-product-price"><strong>{priceLabel(p.price)}</strong><span>catalog price</span></div><a className="button small" href={'/customize?item='+p.slug}>Personalize this item <ArrowRight size={16}/></a></div></article>)}</div>{products.length>4&&<button type="button" className="more-home-products" aria-expanded={expanded} onClick={()=>setExpanded(!expanded)}>{expanded?'Show fewer items':'Show '+(products.length-4)+' more items'}<ChevronDown size={17} className={expanded?'is-expanded':''}/></button>}<p className="front-price-note">Your final quote, artwork and pickup timing are confirmed before production.</p></TabsContent>})}
+  </Tabs>
+  <div className="front-shop-bottom"><p>Make it personal, even if you’re still figuring out the details.</p><a href="/shop" className="text-link">Explore all {shopProducts.length} products <ArrowRight size={16}/></a></div>
+ </section>;
+}

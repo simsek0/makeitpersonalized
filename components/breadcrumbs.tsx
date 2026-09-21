@@ -1,0 +1,2 @@
+import StructuredData from './structured-data';import {breadcrumbs} from '@/lib/seo';
+export default function Breadcrumbs({items}:{items:{name:string;path:string}[]}){return <><nav className="breadcrumbs" aria-label="Breadcrumb"><ol>{items.map((item,i)=><li key={item.path}>{i===items.length-1?<span aria-current="page">{item.name}</span>:<a href={item.path}>{item.name}</a>}</li>)}</ol></nav><StructuredData data={breadcrumbs(items)}/></>}

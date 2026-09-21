@@ -1,0 +1,245 @@
+{
+  "checkedOn": "2026-09-20",
+  "source": "https://www.makeitpersonalized.com/shop/",
+  "note": "One-time catalog import. Prices are original catalog prices, not an automatic live inventory feed. Final quotes confirmed by studio.",
+  "products": [
+    {
+      "id": "750701120",
+      "name": "Port & Company® Essential Tee",
+      "url": "https://www.makeitpersonalized.com/shop/Port-&-Company-r-Essential-Tee-p750701120",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/4927141335.jpg",
+      "price": 15
+    },
+    {
+      "id": "753572893",
+      "name": "Port & Company® Tall Essential Tee",
+      "url": "https://www.makeitpersonalized.com/shop/Port-&-Company-r-Tall-Essential-Tee-p753572893",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/4939326967.jpg",
+      "price": 19
+    },
+    {
+      "id": "753572800",
+      "name": "Port & Company® Long Sleeve Essential Tee",
+      "url": "https://www.makeitpersonalized.com/shop/Port-&-Company-r-Long-Sleeve-Essential-Tee-p753572800",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/4939326780.jpg",
+      "price": 19
+    },
+    {
+      "id": "758269758",
+      "name": "Port & Company® Essential Fleece Crewneck Sweatshirt",
+      "url": "https://www.makeitpersonalized.com/shop/Port-&-Company-r-Essential-Fleece-Crewneck-Sweatshirt-p758269758",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/4970912828.jpg",
+      "price": 34.95
+    },
+    {
+      "id": "753843636",
+      "name": "Sport-Tek® PosiCharge® Tough Tee®",
+      "url": "https://www.makeitpersonalized.com/shop/Sport-Tek-r-PosiCharge-r-Tough-Tee-r-p753843636",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/4941622093.jpg",
+      "price": 15
+    },
+    {
+      "id": "754887703",
+      "name": "District® Very Important Tee® V-Neck",
+      "url": "https://www.makeitpersonalized.com/shop/District-r-Very-Important-Tee-r-V-Neck-p754887703",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/4950272935.jpg",
+      "price": 15
+    },
+    {
+      "id": "757328765",
+      "name": "Port & Company® Youth Essential Tee",
+      "url": "https://www.makeitpersonalized.com/shop/Port-&-Company-r-Youth-Essential-Tee-p757328765",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/4965161489.jpg",
+      "price": 15
+    },
+    {
+      "id": "755521124",
+      "name": "District® The Concert Tank®",
+      "url": "https://www.makeitpersonalized.com/shop/District-r-The-Concert-Tank-r-p755521124",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/4955332424.jpg",
+      "price": 15
+    },
+    {
+      "id": "759399507",
+      "name": "District® Very Important Tee®",
+      "url": "https://www.makeitpersonalized.com/shop/District-r-Very-Important-Tee-r-p759399507",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/4979629949.jpg",
+      "price": 15
+    },
+    {
+      "id": "759399509",
+      "name": "Port & Company® Essential Fleece Pullover Hooded Sweatshirt",
+      "url": "https://www.makeitpersonalized.com/shop/Port-&-Company-r-Essential-Fleece-Pullover-Hooded-Sweatshirt-p759399509",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/4979688005.jpg",
+      "price": 45
+    },
+    {
+      "id": "755521131",
+      "name": "Port & Company® Women’s Essential Tee",
+      "url": "https://www.makeitpersonalized.com/shop/Port-&-Company-r-Womens-Essential-Tee-p755521131",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/4955344668.jpg",
+      "price": 15
+    },
+    {
+      "id": "756709457",
+      "name": "Port & Company® Women’s Performance Blend V-Neck Tee",
+      "url": "https://www.makeitpersonalized.com/shop/Port-&-Company-r-Womens-Performance-Blend-V-Neck-Tee-p756709457",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/4961598656.jpg",
+      "price": 15
+    },
+    {
+      "id": "755521150",
+      "name": "District® Women’s Fitted Very Important Tee®",
+      "url": "https://www.makeitpersonalized.com/shop/District-r-Womens-Fitted-Very-Important-Tee-r-p755521150",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/4955376366.jpg",
+      "price": 15
+    },
+    {
+      "id": "756764001",
+      "name": "Port & Company® Women’s Core Cotton Tank Top",
+      "url": "https://www.makeitpersonalized.com/shop/Port-&-Company-r-Womens-Core-Cotton-Tank-Top-p756764001",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/4961655528.jpg",
+      "price": 15
+    },
+    {
+      "id": "760313108",
+      "name": "Port Authority® Women’s Dry Zone® Grid Polo",
+      "url": "https://www.makeitpersonalized.com/shop/Port-Authority-r-Womens-Dry-Zone-r-Grid-Polo-p760313108",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/4986063087.jpg",
+      "price": 19.95
+    },
+    {
+      "id": "757330560",
+      "name": "Port & Company® Youth Core Fleece Pullover Hooded Sweatshirt",
+      "url": "https://www.makeitpersonalized.com/shop/Port-&-Company-r-Youth-Core-Fleece-Pullover-Hooded-Sweatshirt-p757330560",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/4965166710.jpg",
+      "price": 35
+    },
+    {
+      "id": "757330568",
+      "name": "Rabbit Skins™ Infant Short Sleeve Baby Rib Bodysuit",
+      "url": "https://www.makeitpersonalized.com/shop/Rabbit-Skins-tm-Infant-Short-Sleeve-Baby-Rib-Bodysuit-p757330568",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/4965221330.jpg",
+      "price": 15
+    },
+    {
+      "id": "757773694",
+      "name": "Rabbit Skins™ Toddler Fine Jersey Tee",
+      "url": "https://www.makeitpersonalized.com/shop/Rabbit-Skins-tm-Toddler-Fine-Jersey-Tee-p757773694",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/4968128582.jpg",
+      "price": 15
+    },
+    {
+      "id": "757794066",
+      "name": "Custom Color Mugs 11oz",
+      "url": "https://www.makeitpersonalized.com/shop/Custom-Color-Mugs-11oz-p757794066",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/4970864324.jpg",
+      "price": 22
+    },
+    {
+      "id": "758219341",
+      "name": "Custom Water Bottles",
+      "url": "https://www.makeitpersonalized.com/shop/Custom-Water-Bottles-p758219341",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/5516708515.png",
+      "price": 39
+    },
+    {
+      "id": "757794053",
+      "name": "Custom White Mugs",
+      "url": "https://www.makeitpersonalized.com/shop/Custom-White-Mugs-p757794053",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/5503420769.png",
+      "price": 20
+    },
+    {
+      "id": "763702881",
+      "name": "Wallets",
+      "url": "https://www.makeitpersonalized.com/shop/Wallets-p763702881",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/5016677482.jpg",
+      "price": 35
+    },
+    {
+      "id": "763702885",
+      "name": "Pens",
+      "url": "https://www.makeitpersonalized.com/shop/PENS-p763702885",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/5019102436.jpg",
+      "price": 35
+    },
+    {
+      "id": "761938022",
+      "name": "OTTO CAP “OTTO FLEX” Fitted 6 Panel Low Profile Baseball Cap",
+      "url": "https://www.makeitpersonalized.com/shop/OTTO-CAP-OTTO-FLEX-Fitted-6-Panel-Low-Profile-Baseball-Cap-p761938022",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/5001406697.jpg",
+      "price": 24.95
+    },
+    {
+      "id": "765505110",
+      "name": "OTTO CAP “OTTO FLEX” Fitted 5 Panel Low Profile Baseball Cap",
+      "url": "https://www.makeitpersonalized.com/shop/OTTO-CAP-OTTO-FLEX-Fitted-5-Panel-Low-Profile-Baseball-Cap-p765505110",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/5033572644.jpg",
+      "price": 24.95
+    },
+    {
+      "id": "766487871",
+      "name": "OTTO CAP “OTTO FLEX” Fitted 5 Panel Low Profile Baseball Cap — Special design",
+      "url": "https://www.makeitpersonalized.com/shop/OTTO-CAP-OTTO-FLEX-Fitted-5-Panel-Low-Profile-Baseball-Cap-p766487871",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/5043862866.jpg",
+      "price": 19.95
+    },
+    {
+      "id": "766487870",
+      "name": "Trump Hats for Women",
+      "url": "https://www.makeitpersonalized.com/shop/Trump-Hats-For-Woman-p766487870",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/5043837441.jpg",
+      "price": 19.95
+    },
+    {
+      "id": "765505117",
+      "name": "Port Authority® Dry Zone® Grid Polo",
+      "url": "https://www.makeitpersonalized.com/shop/Port-Authority-r-Dry-Zone-r-Grid-Polo-p765505117",
+      "imageSource": "https://d2j6dbq0eux0bg.cloudfront.net/images/117334430/5033614292.jpg",
+      "price": 19.95
+    }
+  ],
+  "categories": [
+    {
+      "slug": "mens-apparel",
+      "sourceUrl": "https://www.makeitpersonalized.com/shop/Mens-Customizable-Items-c182245657"
+    },
+    {
+      "slug": "womens-apparel",
+      "sourceUrl": "https://www.makeitpersonalized.com/shop/Womans-Customizable-items-c182245658"
+    },
+    {
+      "slug": "sweatshirts",
+      "sourceUrl": "https://www.makeitpersonalized.com/shop/Custom-Sweaters-c182245656"
+    },
+    {
+      "slug": "youth-baby",
+      "sourceUrl": "https://www.makeitpersonalized.com/shop/Custom-Youth-&-Baby-Stuff-c182246158"
+    },
+    {
+      "slug": "drinkware",
+      "sourceUrl": "https://www.makeitpersonalized.com/shop/Custom-Mugs-&-Drinkable-items-c182965511"
+    },
+    {
+      "slug": "engraved-gifts",
+      "sourceUrl": "https://www.makeitpersonalized.com/shop/Engravable-Items-c183025013"
+    },
+    {
+      "slug": "embroidery",
+      "sourceUrl": "https://www.makeitpersonalized.com/shop/Embroidery-Items-c183649082"
+    },
+    {
+      "slug": "hats",
+      "sourceUrl": "https://www.makeitpersonalized.com/shop/Hats-c184041831"
+    },
+    {
+      "slug": "polos",
+      "sourceUrl": "https://www.makeitpersonalized.com/shop/Polos-c184264064"
+    },
+    {
+      "slug": "trump-hats",
+      "sourceUrl": "https://www.makeitpersonalized.com/shop/Trump-Hats-c185031477"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 'use client';
 import {useState} from 'react';
-import {ArrowRight,Check,ChevronDown} from 'lucide-react';
+import {ArrowRight,Check,ChevronDown,Mail,Phone} from 'lucide-react';
 import {Tabs,TabsList,TabsTrigger,TabsContent} from '@/components/ui/tabs';
 import {shopCategories,shopProducts,priceLabel,productUrl} from '@/lib/shop';
 const collections=shopCategories.filter(c=>!c.parent);
@@ -8,7 +8,7 @@ export default function HomeShop(){
  const[category,setCategory]=useState(collections[0].slug);
  const[expanded,setExpanded]=useState(false);
  return <section className="front-shop wrap" id="shop" aria-labelledby="home-shop-title">
-  <div className="front-shop-intro"><div><p className="eyebrow">Custom made in Happy Valley, Oregon</p><h1 id="home-shop-title">What would you like<br className="shop-title-break"/> to personalize?</h1><p>Pick something you love. Add your idea. We’ll take it from there.</p></div><div className="front-shop-help"><a className="text-link" href="/customize">Already have an idea? Start here <ArrowRight size={17}/></a><span><Check size={14}/> One item or a whole team. No payment today.</span></div></div>
+  <div className="front-shop-intro"><div><p className="eyebrow">Custom made in Happy Valley, Oregon</p><h1 id="home-shop-title">What would you like<br className="shop-title-break"/> to personalize?</h1><p>Pick something you love. Add your idea. We’ll take it from there.</p></div><div className="front-shop-help"><div className="front-contact-actions"><a href="tel:+15033038073" aria-label="Call us at 503-303-8073"><Phone size={16} aria-hidden="true"/>Call us</a><a href="mailto:sales@makeitpersonalized.com" aria-label="Email us at sales@makeitpersonalized.com"><Mail size={16} aria-hidden="true"/>Email us</a></div><a className="text-link" href="/customize">Already have an idea? Start here <ArrowRight size={17}/></a><span><Check size={14}/> One item or a whole team. No payment today.</span></div></div>
   <Tabs value={category} onValueChange={value=>{setCategory(String(value));setExpanded(false)}} className="front-shop-tabs">
    <TabsList aria-label="Choose a product category" className="front-collections">{collections.map((c,index)=><TabsTrigger value={c.slug} key={c.slug} className="front-collection"><span className="front-collection-image">{c.image&&<img src={c.image} width="170" height="130" alt="" loading={index<4?'eager':'lazy'} decoding="async"/>}<span className="selected-collection-mark" aria-hidden="true"><Check size={13}/></span></span><span>{c.name}</span></TabsTrigger>)}</TabsList>
    <p className="category-scroll-hint">Swipe to explore all collections</p>

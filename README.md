@@ -1,5 +1,11 @@
 # makeitpersonalized
 
+## GitHub Pages design preview
+
+The public design preview is published at https://simsek0.github.io/makeitpersonalized/ by the **Publish design preview** workflow. Repository Settings → Pages must use **GitHub Actions**, not deployment from the root of `main`.
+
+Run `node scripts/build-pages.mjs` followed by `node scripts/check-pages.mjs` to prepare and validate the preview. The build stages a separate copy under ignored `work/`, exports the catalog and informational pages, and adapts links and assets for the repository URL. Only `work/github-pages` is published. Preview requests are never submitted, no API routes or database contents are included, and the inbox shows a preview explanation. The full application below retains its server-backed order functionality on its existing host.
+
 Private storefront preview for custom apparel, embroidery, engraving and drinkware.
 
 ## Customer flow

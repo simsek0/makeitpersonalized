@@ -12,7 +12,7 @@ async function walk(directory){for(const entry of await fs.readdir(directory,{wi
  assert(!text.includes('makeitpersonalized.alper0.chatgpt.site'),`Original host found in ${filename}`);
  assert(!text.includes('/api/requests'),`Live order endpoint found in ${filename}`);
  if(entry.name.endsWith('.html')){
-  pages++;assert(text.includes('Design preview'),`Preview notice missing in ${filename}`);
+  pages++;
   for(const match of text.matchAll(/(?:href|src)="(\/[^" ]*)"/g)){
    assert(match[1].startsWith(base+'/'),`Unprefixed link ${match[1]}`);
    targets.add(decodeURIComponent(match[1].slice(base.length).split(/[?#]/)[0]));

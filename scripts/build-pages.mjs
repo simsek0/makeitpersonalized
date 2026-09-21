@@ -61,10 +61,6 @@ customize=customize.replace("'Request my quote'","'Preview request'").replace('A
 await write('app/customize/customize.tsx',customize);
 await write('app/requests/page.tsx',`import SiteHeader from '@/components/site-header';import SiteFooter from '@/components/site-footer';export default function Page(){return <><SiteHeader/><main className="content-page wrap"><p className="eyebrow">Design preview</p><h1>The inbox is not connected.</h1><p>No orders or customer information are stored on this preview.</p><a className="button" href="${base}/shop/">Back to the shop</a></main><SiteFooter/></>}`);
 await write('components/structured-data.tsx','export default function StructuredData(_props:{data:unknown}){return null}\n');
-let layout=await read('app/layout.tsx');
-layout=layout.replace('<div id="main">','<div className="preview-notice" role="note">Design preview · Orders are not submitted</div><div id="main">');
-await write('app/layout.tsx',layout);
-await write('app/home-shop.css',(await read('app/home-shop.css'))+'\n.preview-notice{padding:8px 16px;text-align:center;background:#f4effb;color:#70548f;font:13px/1.5 sans-serif;border-bottom:1px solid #e9e0f3}\n');
 await write('public/robots.txt','User-agent: *\nDisallow: /\n');
 await write('public/.nojekyll','');
 console.log('Prepared GitHub Pages preview:',stage);
